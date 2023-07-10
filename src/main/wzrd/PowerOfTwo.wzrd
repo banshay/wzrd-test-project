@@ -1,4 +1,1 @@
-#returns Integer
-def main(input)
-  return (input * input)
-end
+return (input*input)
