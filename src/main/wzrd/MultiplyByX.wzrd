@@ -1,1 +1,3 @@
-return (x*input)
+def main(input, x)
+  return (x*input)
+end
