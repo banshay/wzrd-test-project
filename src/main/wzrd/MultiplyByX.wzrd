@@ -1,5 +1,4 @@
 
-                    def main(input, x)
-                        return (input*x)
-                    end
-                    
+def main(input, x)
+    return (x*input)
+end
