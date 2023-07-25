@@ -1,4 +1,5 @@
+#inputs input:Integer
 #returns Integer
-def main(input)
+def powerOfTwo(input)
   return (input * input)
 end

@@ -1,0 +1,14 @@
+#inputs id:Long,colorService:com.banshay.wzrdtestproject.db.ColorService
+#returns String
+def loadColor(id, colorService)
+  color = colorService.getColorById(id)
+  if color != nil
+    if color.color() == "Yellow"
+        return "You got the best color: Yellow"
+      else
+        return color.color()
+      end
+  else
+    return "Color not found"
+  end
+end

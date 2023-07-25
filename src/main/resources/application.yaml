@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST}:5432/postgres
+    username: app
+    password: ${DB_PASS}
+
+logging:
+  level:
+    root: info
