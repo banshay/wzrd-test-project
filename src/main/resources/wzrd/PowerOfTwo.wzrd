@@ -1,5 +1,5 @@
 #inputs input:Integer
 #returns Integer
 def powerOfTwo(input)
-  return (input * input)
+  return (2 * input)
 end
